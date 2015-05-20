@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="bottom|center_horizontal"
+    >
+
+    <Button
+        android:id="@+id/button"
+        android:text="@string/takepic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="pressButton"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72px"
+        android:layout_gravity="bottom|center_horizontal"
+        />
+
+</LinearLayout>
+</FrameLayout>
